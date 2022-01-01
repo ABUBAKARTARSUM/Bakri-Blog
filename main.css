@@ -3,17 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Saira+Stencil+One&family=Suez+One&display=swap');
 
-/* Custom scroll bar
-::-webkit-scrollbar {
-    width: 8px;
-  }
-  ::-webkit-scrollbar-track {
-    background-color: rgb(44, 43, 43);
-  }
-  ::-webkit-scrollbar-thumb {
-    background: #ef486f;
-    border-radius: 5px;
-}   */
 
 /* start style */
 .border-bottom-style {
@@ -55,11 +44,11 @@
 }
 
 section.jumbotron {
-    background-image:  linear-gradient(115deg,  rgba(239, 71, 111, 0.6), rgba(255, 109, 0, 0.6)),url(image/image-jumbotron.jpg);
+    background-image:  url(image/image-jumbotron.jpg);
     background-position: center center;
-    background-size: cover;
     background-attachment: fixed;
-    height: 440px;
+    background-size: cover;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -102,8 +91,7 @@ a:hover {
 }
 .teks-gradasi {
     background: linear-gradient(90deg, #ef476f, #ff6d00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 }
 .form-control {
     background: rgba(255, 255, 255, 0.20);
