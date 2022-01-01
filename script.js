@@ -1,3 +1,4 @@
+// Web Share API (start)
 const buttonShare = document.querySelector('#buttonShare');
 buttonShare.onclick = function () {
     if(!navigator.share) return
@@ -10,3 +11,4 @@ buttonShare.onclick = function () {
     .catch((error) => console.log('Error sharing', 
     error));
 }
+// Web Share API (end)

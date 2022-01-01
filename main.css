@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Saira+Stencil+One&family=Suez+One&display=swap');
 
-/* Custom scroll bar */
+/* Custom scroll bar
 ::-webkit-scrollbar {
     width: 8px;
   }
@@ -12,19 +12,15 @@
   }
   ::-webkit-scrollbar-thumb {
     background: #ef486f;
-    border-radius: 10px;
-}  
+    border-radius: 5px;
+}   */
 
 /* start style */
 .border-bottom-style {
-    border-bottom: 2px solid transparent;
-    border-image: linear-gradient(to right, #ef476f, #ff6d00);
-    border-image-slice: 1;
+    border-bottom: 2px solid #ef476f;
 }
 .border-gradient-style {
-    border: 2px solid transparent;
-    border-image: linear-gradient(to right, #ef476f, #ff6d00);
-    border-image-slice: 1;
+    border: 2px solid #ff6d00;
 }
 .navbar-brand {
     font-family: 'Changa One', cursive;
@@ -55,12 +51,11 @@
 }
 .btn-share-style {
     background: linear-gradient(to right, #ef476f, #c95e0d);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 }
 
 section.jumbotron {
-    background-image: linear-gradient(115deg,  rgba(239, 71, 111, 0.6), rgba(255, 109, 0, 0.6)), url(image/image-jumbotron.jpg);
+    background-image:  linear-gradient(115deg,  rgba(239, 71, 111, 0.6), rgba(255, 109, 0, 0.6)),url(image/image-jumbotron.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
@@ -100,9 +95,7 @@ a:hover {
     border-radius: 10px;
 }
 .border-2px-gradient {
-    border-bottom: 1px solid transparent;
-    border-image: linear-gradient(to left, #ef486f, #ff6d00);
-    border-image-slice: 1;
+    border-bottom: 1px solid #ef486f;
 }
 .border-merah-muda {
     border: #ef486f 1px solid;
