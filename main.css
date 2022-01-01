@@ -13,7 +13,7 @@
 }
 .navbar-brand {
     font-family: 'Changa One', cursive;
-    background: linear-gradient(to right, #ef476f, #c95e0d);
+    background: linear-gradient(to right, rgb(239, 71, 111), rgb(201, 94, 13));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -39,16 +39,17 @@
     width: 40%;
 }
 .btn-share-style {
-    background: linear-gradient(to right, #ef476f, #c95e0d);
     color: white;
 }
-
+.btn-share-style:hover {
+    color: #ff6d00;
+}
 section.jumbotron {
-    background-image:  url(image/image-jumbotron.jpg);
-    background-position: center center;
-    background-attachment: fixed;
+    background-image:  linear-gradient(to right, rgba(255, 109, 0, 0.6), rgba(239, 71, 111,0.6)), url(image/image-jumbotron.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 540px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,6 +94,9 @@ a:hover {
     background: linear-gradient(90deg, #ef476f, #ff6d00);
     color: white;
 }
+.teks-gradasi:hover {
+    color: #ddd;
+}
 .form-control {
     background: rgba(255, 255, 255, 0.20);
     border: none;
@@ -107,5 +111,5 @@ a:hover {
 }
 h3 {
     font-family: 'Suez One', serif;
-    text-shadow: 3px 0 0.5px #313131;
+    text-shadow: 3px 0 06px #ef486f;
 }
