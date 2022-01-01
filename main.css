@@ -1,0 +1,130 @@
+/* fonts google */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&family=Changa+One&family=Coiny&family=Monoton&family=Nunito:wght@300&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Saira+Stencil+One&family=Suez+One&display=swap');
+
+/* Custom scroll bar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: rgb(44, 43, 43);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #ef486f;
+    border-radius: 10px;
+}  
+
+/* start style */
+.border-bottom-style {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #ef476f, #ff6d00);
+    border-image-slice: 1;
+}
+.border-gradient-style {
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #ef476f, #ff6d00);
+    border-image-slice: 1;
+}
+.navbar-brand {
+    font-family: 'Changa One', cursive;
+    background: linear-gradient(to right, #ef476f, #c95e0d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 1rem;
+    }
+}
+.btn-gradient {
+    background: rgba(255,255,255, 0.40);
+    width: 40%;
+    border-radius: 20px;
+    border: 3px solid  rgba(255,255,255, 0.4);
+    transition: 0.5 ease-in;
+}
+.btn-gradient:hover {
+    color: #c95e0d;
+    border: 3px solid  rgba(255,255,255, 0.4);
+}
+.btn-gradasi {
+    background: linear-gradient(90deg, #ff6d00, #ef476f);
+    border-radius: 20px;
+    width: 40%;
+}
+.btn-share-style {
+    background: linear-gradient(to right, #ef476f, #c95e0d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+section.jumbotron {
+    background-image: linear-gradient(115deg,  rgba(239, 71, 111, 0.6), rgba(255, 109, 0, 0.6)), url(image/image-jumbotron.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+section.jumbotron h2 {
+    font-family: 'Coiny', cursive;
+    text-shadow: 3px 0 1px #c95e0d;
+}
+section#post-kontent h2 {
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 3px 0 2px #ef476f;
+}
+section#latest-post h2 {
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 3px 0 2px #ff6d00;
+}
+.bg-gelap {
+    background: rgb(0,0,0);
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+a:hover {
+    color: #ff6d00;
+}
+.tumpul {
+    border-radius: 5px;
+}
+.tumpul-lg {
+    border-radius: 10px;
+}
+.border-2px-gradient {
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to left, #ef486f, #ff6d00);
+    border-image-slice: 1;
+}
+.border-merah-muda {
+    border: #ef486f 1px solid;
+}
+.teks-gradasi {
+    background: linear-gradient(90deg, #ef476f, #ff6d00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.form-control {
+    background: rgba(255, 255, 255, 0.20);
+    border: none;
+    outline: none;
+    color: white;
+}
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.20);
+    border: none;
+    outline: none;
+    color: white;
+}
+h3 {
+    font-family: 'Suez One', serif;
+    text-shadow: 3px 0 0.5px #313131;
+}
