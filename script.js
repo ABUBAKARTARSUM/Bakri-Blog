@@ -1,4 +1,4 @@
-const buttonShare = document.getElementById('buttonShare');
+const buttonShare = document.querySelector('#buttonShare');
 buttonShare.onclick = function () {
     if(!navigator.share) return
     navigator.share({
